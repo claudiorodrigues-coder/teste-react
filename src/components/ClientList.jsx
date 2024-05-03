@@ -5,7 +5,7 @@ function ClientList() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    // Fazer uma requisição para a API Reqres para obter a lista de clientes
+    
     fetch('https://reqres.in/api/users')
       .then((response) => response.json())
       .then((data) => setClients(data.data))

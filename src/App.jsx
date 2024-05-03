@@ -7,7 +7,6 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = () => {
-    // Lógica de autenticação (pode ser simulada no front-end)
     setIsLoggedIn(true);
   };
 
